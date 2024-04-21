@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KaleidoMovie</title>
+    <!-- <link rel="icon" href="">  completar -->
+    <link rel="stylesheet" href="../Randomflix/estiloindex1.css">
+    <script src="https://kit.fontawesome.com/fae5ac15d7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>        
+        <!-- Logo en inteligencia artificial, Ale-->
+        <!-- Div con generos peliculas cortos y inicio de sesion, barra de seleccion -->
+        <div id="Barra_de_seccion">
+            <article class="flex_item_b"> <a href="#Peliculas">Peliculas</a></article>
+            <article class="flex_item_b"><a href="#Cortos">Cortos</a></article>
+            <article class="flex_item_b"><a href="">Inicio de sesion</a></article>    
+            
+        </div>
+        <!-- Titulo arriba a la derecha , dentro de la imagen con un logo-->
+        <div id="Titulo">            
+            <article>            
+                    <img src="../Randomflix/img/Logos para la web/logo_faro_negro_blanco.png" alt="KaleidoMovie" >
+            </article>
+            
+        </div>
+    </header>
+
+    <main>
+        <!-- Seccion 1 Buscador  -->         
+        <section id="Buscador"  class="General">
+            <!-- agregar form -->
+            <form action="" method="">     
+                <article class="busca_recuadro">           
+                    <input size="80" type="text" id="nombre" placeholder="Buscador..." >
+                    
+                </article>
+                <!-- imagen lupa como boton -->
+                <article class="busca_recuadro1">
+                    <input type="image" src="../Randomflix/img/Lupa-removebg-preview.png" width="40px" height="40px">  
+                </article>
+            </form> 
+        </section>
+         
+        <!-- Seccion 2 Grill peliculas, Yami -->
+        <section id="Peliculas"  class="General">
+            
+                <h2>Peliculas</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <a href="pelicula1.html"><img src="../Randomflix/img/Peliculas/Coda.jpg" alt="Coda"></a>
+                        <div class="start"><i class="fa-regular fa-star" style="color: #FFD43B;"></i> 8 </div>
+                        <h4>Coda</h4>
+                        <p>2021</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="../Randomflix/img/Peliculas/el_ultimo_traje.jpg" alt="El ultimo traje">
+                        <div class="start"><i class="fa-regular fa-star" style="color: #FFD43B;"></i> 7.1 </div>
+                        <h4>El ultimo traje</h4>
+                        <p>2017</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="../Randomflix/img/Peliculas/the_artist.jpg" alt="The artist">
+                        <div class="start"><i class="fa-regular fa-star" style="color: #FFD43B;"></i> 7.9 </div>
+                        <h4>The artist</h4>
+                        <p>2011</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="../Randomflix/img/Peliculas/whatever_works.jpg" alt="Whatever works">
+                        <div class="start"><i class="fa-regular fa-star" style="color: #FFD43B;"></i> 7.1 </div>
+                        <h4>Whatever works</h4>
+                        <p>2009</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="../Randomflix/img/Peliculas/12_angry_men.jpg" alt="12 Angry men">
+                        <div class="start"><i class="fa-regular fa-star" style="color: #FFD43B;"></i> 7.8 </div>
+                        <h4>12 Angry men</h4>
+                        <p>1997</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="../Randomflix/img/Peliculas/Fading_gigolo.jpg" alt="Fading Gigolo"> 
+                        <div class="start"><i class="fa-regular fa-star" style="color: #FFD43B;"></i> 6.2 </div>
+                        <h4>Fading Gigolo</h4>
+                        <p>2013</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="../Randomflix/img/Peliculas/See_No_Evil,_Hear_No_Evil.jpg" alt="See No Evil, Hear No Evil">
+                        <div class="start"><i class="fa-regular fa-star" style="color: #FFD43B;"></i> 6.8 </div>
+                        <h4>See No Evil, Hear No Evil</h4>
+                        <p>1989</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="../Randomflix/img/Peliculas/La_guerre_du_feu.jpg" alt="La guerre du feu">
+                        <div class="start"><i class="fa-regular fa-star" style="color: #FFD43B;"></i> 7.3 </div>
+                        <h4>La guerre du feu</h4>
+                        <p>1981</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="../Randomflix/img/Peliculas/Being_There.jpg" alt="Being There">
+                        <div class="start"><i class="fa-regular fa-star" style="color: #FFD43B;"></i> 7.9 </div>
+                        <h4>Being There</h4>
+                        <p>1971</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="../Randomflix/img/Peliculas/Hardcore_Henry.jpg" alt="Hardcore Henry">
+                        <div class="start"><i class="fa-regular fa-star" style="color: #FFD43B;"></i> 6.7 </div>
+                        <h4>Hardcore Henry</h4>
+                        <p>2015</p>
+                    </div>                                 
+                   
+                </div>               
+               
+        </section>
+        <!-- Seccion 3 flex con scroll interno de cortos, Yami -->
+        <!-- mejorar el titulo y puntuacion -->
+        <section id="Cortos"  class="General">
+            <h2>Cortos</h2>
+            <div id="Cortos-flexbox">
+                <article class="flex-item1">
+                    <img src="../Randomflix/img/Cortos/Invention_of_love.jpg" alt="Invention_of_love">
+                    <div class="start"><i class="fa-regular fa-star" style="color: #FFD43B;"></i> 6.4 </div>
+                    <h4>Invention of love</h4>
+                    <p>2010</p>                
+                </article>             
+                <article class="flex-item1">
+                    <img src="../Randomflix/img/Cortos/inercia.jpg" alt="Inercia">
+                    <div class="start"><i class="fa-regular fa-star" style="color: #FFD43B;"></i> 9 </div>
+                    <h4>Inercia</h4>
+                    <p>2009</p>                
+                </article> 
+                <article class="flex-item2">
+                    <img src="../Randomflix/img/Cortos/Fresh_guacamole.jpg" alt="Guacamole">
+                    <div class="start"><i class="fa-regular fa-star" style="color: #FFD43B;"></i> 6 </div>
+                    <h4>Fresh guacamole</h4>
+                    <p>2013</p>                
+                </article> 
+                <article class="flex-item2">
+                    <img src="../Randomflix/img/Cortos/Le_cafe.jpg" alt="Le cafe">
+                    <div class="start"><i class="fa-regular fa-star" style="color: #FFD43B;"></i> 8 </div>
+                    <h4>Le cafe</h4>
+                    <p>2007</p>                
+                </article> 
+                <article class="flex-item2">
+                    <!-- mejorar esta imagen -->
+                    <img src="../Randomflix/img/Cortos/La_caja.png" alt="La caja">
+                    <div class="start"><i class="fa-regular fa-star" style="color: #FFD43B;"></i> 9 </div>
+                    <h4>La caja</h4>
+                    <p>2007</p>                
+                </article> 
+                <article class="flex-item2">
+                    <img src="../Randomflix/img/Cortos/ilha_das_flores.jpg" alt="ilha das flores">
+                    <div class="start"><i class="fa-regular fa-star" style="color: #FFD43B;"></i> 9 </div>
+                    <h4>Isla de las Flores</h4>
+                    <p>1989</p>                
+                </article> 
+                <article class="flex-item1">
+                    <img src="../Randomflix/img/Cortos/el_empleo.jpg" alt="El empleo">
+                    <div class="start"><i class="fa-regular fa-star" style="color: #FFD43B;"></i> 7 </div>
+                    <h4>El empleo</h4>
+                    <p>2008</p>                
+                </article> 
+            </div>
+        </section>
+    </main>
+    <footer>
+        <br>
+         
+            <!-- Contactos/Redes -->
+         <section id="Pie">
+             <div id="redes">
+                        <article>Redes</article>
+                        <article><a href="https://www.instagram.com/?hl=es"><i class="fa-brands fa-instagram fa-lg" style="color: #8066cc;"></i></a></article>
+                        <article><a href="https://twitter.com/"><i class="fa-brands fa-twitter" style="color: #398e75;"></i></a></article>
+                        <article><a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i></a></article>
+                        <article><a href="https://mail.google.com/"><i class="fa-regular fa-envelope fa-bounce"></i></a></td></article>
+                        <article><a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp fa-beat" style="color: #3dc29a;"></i></a></article>  
+             </div>      
+         </section>     
+            <!-- Cambiar de pagina -->
+            <!-- Falta darle disenio en css a esto de flex-->
+        <section id="Cambiar_pag">
+            <div id="siguiente">
+                <article><i class="fa-solid fa-arrow-left"></i></article>
+                <article>1</article>
+                <article>2</article>
+                <article>3</article>
+                <article>4</article>
+                <article>5</article>
+                <article><i class="fa-solid fa-arrow-right"></i></article>
+            </div>    
+            </section>
+    </footer>
+</body>
+</html>
