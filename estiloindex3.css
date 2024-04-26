@@ -60,7 +60,7 @@ header{
 }
 /* Titulo */
 #Titulo{
-    background-image:url(../Randomflix/img/Fondos/fondo2.png.png);       
+    background-image:url(img/Fondos/fondo2.png.png);       
     height: 300px;
 
    & article{
